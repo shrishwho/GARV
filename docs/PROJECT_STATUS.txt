@@ -1,0 +1,7 @@
+Step 1 completed.
+
+Next:
+1. Set up the frontend.
+2. Set up the backend.
+3. Connect the database.
+4. Add AI/ML services.
