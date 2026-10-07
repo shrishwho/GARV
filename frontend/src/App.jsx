@@ -101,7 +101,7 @@ useEffect(() => {
               try {
                 const response =
                   await fetch(
-                    "http://localhost:5000/api/login",
+                    "https://garv-o782.onrender.com/api/login",
                     {
                       method: "POST",
 
@@ -132,7 +132,7 @@ useEffect(() => {
                   try {
                     const contactsResponse =
                       await fetch(
-                        `http://localhost:5000/api/contacts/${data.user.id}`
+                        `https://garv-o782.onrender.com/api/contacts/${data.user.id}`
                       );
 
                     const contactsData =
@@ -621,7 +621,7 @@ useEffect(() => {
 
                       const response =
                         await fetch(
-                          "http://localhost:5000/api/sos",
+                          "https://garv-o782.onrender.com/api/sos",
                           {
                             method: "POST",
 
@@ -838,7 +838,7 @@ useEffect(() => {
 
                   const response =
                     await fetch(
-                      "http://localhost:5000/api/contacts",
+                      "https://garv-o782.onrender.com/api/contacts",
                       {
                         method: "POST",
 
@@ -958,7 +958,7 @@ useEffect(() => {
 
                             const response =
                               await fetch(
-                                `http://localhost:5000/api/contacts/${userId}/${contact._id}`,
+                                `https://garv-o782.onrender.com/api/contacts/${userId}/${contact._id}`,
                                 {
                                   method:
                                     "DELETE",
@@ -1099,7 +1099,7 @@ useEffect(() => {
 
                 const response =
                   await fetch(
-                    "http://localhost:5000/api/register",
+                    "https://garv-o782.onrender.com/api/register",
                     {
                       method: "POST",
 
