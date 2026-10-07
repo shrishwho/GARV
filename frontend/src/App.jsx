@@ -30,7 +30,7 @@ useEffect(() => {
       setAnalyticsLoading(true);
 
       const response = await fetch(
-        `http://localhost:5000/api/analytics/${userId}`
+        `https://garv-o782.onrender.com/api/analytics/${userId}`
       );
 
       const data = await response.json();
